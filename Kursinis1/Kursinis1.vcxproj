@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="screen.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="screen.h" />
+    <ClInclude Include="Source.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,16 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Checkers\Checkers\screen.h" />
-    <ClInclude Include="..\..\Checkers\Checkers\Source.h" />
-    <ClInclude Include="..\..\Checkers\Checkers\utils.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Checkers\Checkers\screen.cpp" />
-    <ClCompile Include="..\..\Checkers\Checkers\Source.cpp" />
-    <ClCompile Include="..\..\Checkers\Checkers\utils.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
