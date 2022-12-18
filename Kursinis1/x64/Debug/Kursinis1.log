@@ -1,0 +1,7 @@
+﻿  Queen.cpp
+  Test.cpp
+Z:\Visual Studio Projects\Kursinis1\Kursinis1\Board.cpp(53,66): warning C4805: '!=': unsafe mix of type 'bool' and type 'int' in operation
+Z:\Visual Studio Projects\Kursinis1\Kursinis1\Board.cpp(74,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+Z:\Visual Studio Projects\Kursinis1\Kursinis1\Board.cpp(78,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Kursinis1.vcxproj -> Z:\Visual Studio Projects\Kursinis1\x64\Debug\Kursinis1.exe
